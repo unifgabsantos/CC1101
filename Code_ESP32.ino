@@ -14,7 +14,7 @@ void setup() {
   delay(1000);
   Serial.println("Inicializando o receptor RF...");
   
-  mySwitch.enableReceive(digitalPinToInterrupt(CC1101_GDO0));  // Use a função digitalPinToInterrupt para especificar GPIO2
+  mySwitch.enableReceive(digitalPinToInterrupt(CC1101_GDO0)); 
 }
 
 void loop() {
